@@ -1,9 +1,21 @@
 # Rust-calculator: A basic CLI calculator written in rust
 
-### Usage
+## Compiling
+
+Run this in the cloned repository, to create a binary.
+```
+cargo build --release
+```
+
+Move the binary to your bin folder
+```
+mv target/release/calculator ~/bin/calc
+```
+
+## Usage
 
 To startup the calculator application
 ```
 calc  
 ````
-And then type in any mathematical expression!
+Type in any mathematical expression!
